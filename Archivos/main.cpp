@@ -52,7 +52,7 @@ void main() {
 					//Le paso el input a otra variable la cual voy a encriptar
 					std::string lineaEncriptada = linea;
 
-					//Aqui hago un bucle for each que va muy bien en esta situación ya que itera por cada char que haya dentro de la palabra (Encontrado en un post de StackOverflow)
+					//Aqui hago un bucle for each que va muy bien en esta situación ya que itera por cada char que haya dentro de la palabra (Visto en un post de StackOverflow)
 					for (char c : lineaEncriptada) {
 						//El char lo convierte en -5 de la tabla ascii
 						c = c - 5;
