@@ -163,5 +163,7 @@ void main() {
 
 	}
 
+	file_read.close();
+	file_input.close();
 	
 }
